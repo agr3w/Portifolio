@@ -1,0 +1,172 @@
+ body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #9b73fa 40%, #00a2ff 76%);
+
+ }
+
+.cabecalho {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.foto_perfil {
+    border: solid rgba(240, 248, 255, 0.801) 3px;
+    width: 12%;
+    margin: 1rem;
+    border-radius: 30%;
+}
+
+.paginas {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    padding: 0.8rem;
+}
+
+.separacao {
+    padding-right: 25px;
+}
+
+.logos {
+    height: 30px;
+}
+
+.logos:hover {
+    height: 31px;
+}
+
+/*primeiro parágrafo*/
+
+.perfil_profissional {
+    text-align: center;
+    padding: 30px;
+    line-height: 2rem;
+}
+
+h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.primeiro {
+    font-size: 18px;
+    margin: 0.3rem 18rem 0rem 18rem;
+}
+
+/* formações */
+
+.formacoes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0rem 15rem 3rem 15rem;
+
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgba(50, 255, 238, 0.719);
+}
+
+.lista_formacoes {
+    padding: 0.8rem;
+    margin: 0rem 3rem 0rem 3rem;
+}
+
+.itens {
+    line-height: 2.5rem;
+}
+
+.link_lista {
+    transition: 0.3s;
+}
+
+.link_lista:hover,.link_lista:focus {
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.link_lista {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* footer */
+
+.rodape {
+    background-color: rgba(255, 168, 168, 0.897);
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0rem 2rem 0rem;
+
+    border-top: black solid 2px;
+    
+}
+
+.contato {
+    padding-bottom: 15px;
+    padding-left: 90px;
+    text-decoration: underline;
+
+    font-size: 26px;
+}
+
+.paragrafo_rodape {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem
+
+}
+
+@media screen and (max-width: 1200px) {
+    .foto_perfil {
+        width: 20%;
+        margin: 3rem;
+    }
+    
+    .primeiro {
+        margin: 1rem
+    }
+
+    .formacoes {
+        margin: 1rem 8rem 2rem 8rem
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .foto_perfil {
+        width: 40%;
+        margin: 3rem;
+    }
+    
+    .primeiro {
+        margin: 1rem
+    }
+
+    .formacoes {
+        margin: 2rem
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .foto_perfil {
+        width: 40%;
+        margin: 3rem;
+    }
+    
+    .formacoes {
+        padding: 0.5rem 0.1rem 0.1rem 0.1rem;
+    }
+    
+    .itens {
+        line-height: 2rem;
+        padding-bottom: 1.0rem;
+    }
+}
+
